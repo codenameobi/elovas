@@ -314,7 +314,7 @@ a {
 }
 
 a:focus, a:hover {
-  color: #f89d35;
+  color: #f89d35 !important;
   text-decoration: none;
 }
 
