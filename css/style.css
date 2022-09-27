@@ -429,6 +429,8 @@ a {
 .w-100 {
   width: 100%;
   max-width: unset;
+  height:250px;
+  object-fit:cover;
 }
 
 .ml-auto {
@@ -882,7 +884,7 @@ ul.list-styled {
   left: 0px;
   top: 0px;
   background: rgba(0, 0, 0, 0.95);
-  width: 60%;
+  width: 100%;
   height: 100%;
 }
 .video:after {
@@ -1300,7 +1302,10 @@ ul.list-styled {
 }
 .gallery .gallery-item a img {
   margin-bottom: 0;
+  height:250px;
+  object-fit:cover;
 }
+
 
 .contact-wrap .input {
   height: 48px;
